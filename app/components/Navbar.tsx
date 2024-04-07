@@ -42,7 +42,7 @@ const Navbar = () => {
                 return (
                     <a
                         href="#"
-                        className={`list flex gap-10 capitalize font-semibold ${
+                        className={`list flex gap-10 capitalize text-[1.1vw] font-semibold ${
                             index === 4 && "ml-32"
                         }`}
                         key={index}
