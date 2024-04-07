@@ -5,7 +5,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar fixed z-[999] flex justify-between items-center px-20 py-8 w-full font-['Neue Montreal']">
+      <div className="navbar fixed z-[999] flex justify-between items-center px-20 py-5 w-full font-['Neue Montreal']">
         <div className="logo">
           <svg
             width="72"
@@ -42,7 +42,7 @@ const Navbar = () => {
                 return (
                     <a
                         href="#"
-                        className={`list flex gap-10 capitalize ${
+                        className={`list flex gap-10 capitalize font-semibold ${
                             index === 4 && "ml-32"
                         }`}
                         key={index}

@@ -4,7 +4,7 @@ import LandingPage from './components/LandingPage';
 
 const page = () => {
   return (
-    <div className='text-white'>
+    <div className="text-[#212121]">
       <Navbar />
       <LandingPage />
     </div>
